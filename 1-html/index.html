@@ -10,138 +10,181 @@
 </head>
 <body>
 
-    
- <header>
-        <div class="s-sapient">
-
-            <div class="container">
-                <div class="s-sapient_flex">
-                    <div class="s-sapient_flex_item">
-                    <img src="./logo.svg"/>
-                </div>      
-                
-
+<!-- the begin menu -->
+<div class="header-menu">
+    <div class="container">
         <div class="s-sapient_flex">
+
             <div class="s-sapient_flex_item">
-            <img src="FALTA COLOCAR BUSCAR">
-        </div>
-
-
-        <div class="s-sapient_flex">
+                <div class="hamburguer"></div>
+            </div>
+             
             <div class="s-sapient_flex_item">
-            <img src="ITEM 3 DIV">
-        </div>
-    </header>
-
-
-        <div class="container"></div>
-        <nav>
-            <url>
-                <a href="./quemsomos.html">
-                    <li>Quem somos</li>
-                </a>
-                <a href="./trabalheconosco.html">
-                    <li>Trabalhe conosco</li>
-                </a>
-                <a href="./pessoas.html">
-                    <li>Pessoas</li>
-                </a>
-                <a href="./cases.html">
-                    <li>Cases</li>
-                </a>
-            </url>
-        </nav>
-   
-
- <div id="sinopse">
-    <div class="sinopse_flex">
-            <p class="description">
-            
-                <b> Olá mundo! </b>
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
-            </p>
-
-    <div id="banner"></div>
-    <div id="trailer-container">
-    <div class="content">
-        <video controls class="trailer">
-            <source src="./video.mp4" type="video/mp4">
-        </video>
-       </div>
-
-            <div id="frase-1">
-    <div class="frase-1_flex">
-            <p class="description">
-            
-                <b>“</b> LOREM IPSUM DOLOR SIT AMET, CONSECTETUER VOLUTPAT. UT. <b>”</b>
-            </p>
-
-
-            <div id="frase-2">
-                <div class="frase-2_flex">
-                        <p class="description">
-                        
-                            <b>Galeria de imagens</b>
-                        </p>
-            
-            <div class="s-sapient_flex"><
+                <img src="./assets/img/logo.svg">
+            </div>
+        
             <div class="s-sapient_flex_item">
-                <img src="./imagem-1.png"/>
-           
-    </div>
-
-    <div id="frase-3">
-        <div class="frase-3_flex">
-            <p class="titulo">
-                <b>LOREM IPSUM DOLOR SIT</b>
-                Lorem ipsum dolor sit amet, consectetuer erat volutpat. Ut wisi enim ad minim
-            </p>
+                <img src="./assets/img/lupa.svg">
             </div>
 
+        </div>
+    </div>
+</div>
+<!-- end menu -->
 
-            <form action=".index.html">
+<!-- the begin side menu -->
+<div class="side__menu">
+    <div class="container">
+        <nav class="side__menu__navigation">
+            <ul>
+                <li>
+                    <a href="./quemsomos.html">
+                        Quem somos
+                    </a>  
+                </li>
+                <li>
+                    <a href="./trabalheconosco.html">
+                        Trabalhe conosco
+                    </a>
+                </li>
+                <li>
+                    <a href="./pessoas.html">
+                        Pessoas
+                    </a>
+                </li>
+                <li>
+                    <a href="./cases.html">
+                        Cases
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <nav class="side__menu__socials">
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/" target="_blank">
+                        <img src="./assets/img/instagram.svg" alt="">
+                    </a>  
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/" target="_blank">
+                        <img src="./assets/img/facebook.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/">
+                        <img src="./assets/img/linkedin.svg" alt="">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://medium.com/">
+                        <img src="./assets/img/medium.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
+<!-- end side menu   -->
+
+<!-- the begin search menu -->
+<div class="side__search">
+    <div class="container">
+        <input type="text" placeholder="Digite o que deseja buscar">
+        <div class="side__search__results">
             
-                <label for="text" >Nome</label>
-                <input style="display: block" id="text" type="text" name="text" />
-                
-                <label for="email">Email</label>
-                <input style="display: block" id="email" type="email" name="Litiin" placeholder="coloque um email válido"/>
+        </div>
+    </div>
+</div>
+<!-- the begin search menu  -->
     
-                <label for="password" >Telefone</label>
-                <input style="display: block" id="password" type="password" name="password"/>
+<!-- the begin sinopse -->
+<section class="sinopse">
+    <div class="container">
+        <h1 class="title"> Olá mundo! </h1>
+        <p class="description">
+            Lorem ipsum dolor sit amet, consectetuer <a href="#" target="__blank">adipiscing elit</a>, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+        </p>
+    </div>
+
+    <video src="./assets/video/video.mp4" controls class="sinopse__video">
+
+    </video>
+    <div class="container">
+        <q>
+            LOREM IPSUM DOLOR SIT AMET, CONSECTETUER VOLUTPAT. UT. 
+        </q>
+    </div>
+</section>
+<!-- end sinopse  -->
+
+<!-- the begin form contact  -->
+<section class="contact__section">
+    <div class="container">
+        <h2>Entre em contato</h2>
+        <form action="#" method="post" class="contact__section__form">
+            
+            <div class="contact__section__form__item">
+                <label for="name">Nome:</label>
+                <input  id="name" type="text" name="name" />
+                <p class="name__error"></p>
+            </div>
+            
+            <div class="contact__section__form__item">
+                <label for="email">Email:</label>
+                <input  id="email" type="email" name="email" />
+                <p class="email__error"></p>
+            </div>
     
-                <label for="text" >Mensagem</label>
-                <textarea style="display: block" name="mensagem" id="mensagem" rows="10">
+            <div class="contact__section__form__item">
+                <label for="phone" >Telefone:</label>
+                <input  id="phone" type="text" name="phone"/>
+                <p class="phone__error"></p>
+            </div>
+    
+            <div class="contact__section__form__item">
+                <label for="message">Mensagem:</label>
+                <textarea  name="message" id="message" rows="10">
                 </textarea>
+                <p class="message__error"></p>
+            </div>
     
-                <button>Enviar</button>
+            <button>Enviar</button>
+        </form>
+    </div>
+</section>
+<!-- end form contact  -->
 
-    <footer>
 
-        <span>Av. Dr. Figueiredo Mascarenhas, 94
-            Tres Vendas, Pelotas - RS
-            96055-510
-            (53) 3030-3030</span>
-       
-            <div class="container"></div>
-            <nav>
-                <url>
-                    <a href="./Vagas.html">
-                        <li>Vagas</li>
+<!-- the begin footer  -->
+<footer class="footer">
+    <div class="container">
+        <span class="footer__address">
+            Av. Dr. Figueiredo Mascarenhas, 94 <br>
+            Tres Vendas, Pelotas - RS <br>
+            96055-510 <br>
+            (53) 3030-3030 <br>
+        </span>
+        <nav class="footer__navigation">
+            <ul>
+                <li>
+                    <a href="#" target="__blank">
+                        Vagas
                     </a>
-                    <a href="./Casess.html">
-                        <li>Casess</li>
+                </li>
+                <li>
+                    <a href="#" target="__blank">
+                        Cases
                     </a>
-                    <a href="./sitemp.html">
-                        <li>Sitemap</li>
-                   
+                </li>
+                <li>
+                    <a href="#" target="__blank">
+                        Sitemap
                     </a>
-                </url>
-            </nav>
-       
-    </footer>
-
-
-
-</body>
-</html>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+<!-- end footer  -->
